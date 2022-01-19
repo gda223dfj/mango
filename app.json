@@ -1,0 +1,30 @@
+{
+  "name": "mango",
+  "description": "mango",
+  "mango": [
+    "Xray"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议vmess或vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID, uuidgenerator.net",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/gda223dfj/mango",
+  "repository": "https://github.com/gda223dfj/mango",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
